@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/Dirent.ts</title>
+    <title>Code coverage report for src/fsa/CoreFileSystemHandle.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../prettify.css" />
-    <link rel="stylesheet" href="../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../sort-arrow-sprite.png);
+            background-image: url(../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">src</a> Dirent.ts</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/fsa</a> CoreFileSystemHandle.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.33% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>20/24</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">60% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>6/10</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">83.33% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>20/24</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
@@ -125,130 +125,142 @@
 <a name='L60'></a><a href='#L60'>60</a>
 <a name='L61'></a><a href='#L61'>61</a>
 <a name='L62'></a><a href='#L62'>62</a>
-<a name='L63'></a><a href='#L63'>63</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">53x</span>
-<span class="cline-any cline-yes">53x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">53x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">53x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-yes">428x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">123x</span>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">71x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">42x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">99x</span>
+<span class="cline-any cline-yes">99x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">99x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">53x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Link } from './node';
-import { constants } from './constants';
-import { TEncodingExtended, strToEncoding, TDataOut } from './encoding';
-import type { IDirent } from './node/types/misc';
-&nbsp;
-const { S_IFMT, S_IFDIR, S_IFREG, S_IFBLK, S_IFCHR, S_IFLNK, S_IFIFO, S_IFSOCK } = constants;
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { CorePermissionStatus } from './CorePermissionStatus';
+import type { IFileSystemHandle, FileSystemHandlePermissionDescriptor, CoreFsaContext } from './types';
 &nbsp;
 /**
- * A directory entry, like `fs.Dirent`.
+ * Represents a File System Access API file handle `FileSystemHandle` object,
+ * which was created from a core `Superblock`.
+ *
+ * @see [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/FileSystemHandle)
  */
-export class Dirent implements IDirent {
-  static build(link: Link, encoding: TEncodingExtended | undefined) {
-    const dirent = new Dirent();
-    const { mode } = link.getNode();
+export abstract class CoreFileSystemHandle implements IFileSystemHandle {
+  protected readonly ctx: CoreFsaContext;
 &nbsp;
-    dirent.name = strToEncoding(link.getName(), encoding);
-    dirent.mode = mode;
-    dirent.path = link.getParentPath();
-    dirent.parentPath = dirent.path;
-&nbsp;
-    return dirent;
+  constructor(
+    public readonly kind: 'file' | 'directory',
+    public readonly name: string,
+    ctx: CoreFsaContext,
+  ) {
+    this.ctx = ctx;
   }
 &nbsp;
-  name: TDataOut = '';
-  path = '';
-  parentPath = '';
-  private mode: number = 0;
-&nbsp;
-  private _checkModeProperty(property: number): boolean {
-    return (this.mode &amp; S_IFMT) === property;
+  /**
+   * Compares two handles to see if the associated entries (either a file or directory) match.
+   *
+   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemHandle/isSameEntry
+   */
+  public isSameEntry(fileSystemHandle: CoreFileSystemHandle): boolean {
+    return (
+      this.constructor === fileSystemHandle.constructor &amp;&amp; (this as any).__path === (fileSystemHandle as any).__path
+    );
   }
 &nbsp;
-  isDirectory(): boolean {
-    return this._checkModeProperty(S_IFDIR);
+  /**
+   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemHandle/queryPermission
+   */
+  public queryPermission(
+    fileSystemHandlePermissionDescriptor: FileSystemHandlePermissionDescriptor,
+  ): CorePermissionStatus {
+    // Check if the requested mode is compatible with the context mode
+    const requestedMode = fileSystemHandlePermissionDescriptor.mode;
+    const contextMode = this.ctx.mode;
+&nbsp;
+    // If requesting readwrite but context only allows read, deny
+    if (requestedMode === 'readwrite' &amp;&amp; contextMode === 'read') {
+      return new CorePermissionStatus('denied', requestedMode);
+    }
+&nbsp;
+    // Otherwise grant the permission
+    return new CorePermissionStatus('granted', requestedMode);
   }
 &nbsp;
-  isFile(): boolean {
-    return this._checkModeProperty(S_IFREG);
+  /**
+   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemHandle/remove
+   */
+  public async remove({ recursive }: { recursive?: boolean } = { recursive: false }): Promise&lt;void&gt; {
+    throw new Error('Not implemented');
   }
 &nbsp;
-<span class="fstat-no" title="function not covered" >  isBlockDevice(</span>): boolean {
-<span class="cstat-no" title="statement not covered" >    return this._checkModeProperty(S_IFBLK);</span>
-  }
-&nbsp;
-<span class="fstat-no" title="function not covered" >  isCharacterDevice(</span>): boolean {
-<span class="cstat-no" title="statement not covered" >    return this._checkModeProperty(S_IFCHR);</span>
-  }
-&nbsp;
-  isSymbolicLink(): boolean {
-    return this._checkModeProperty(S_IFLNK);
-  }
-&nbsp;
-<span class="fstat-no" title="function not covered" >  isFIFO(</span>): boolean {
-<span class="cstat-no" title="statement not covered" >    return this._checkModeProperty(S_IFIFO);</span>
-  }
-&nbsp;
-<span class="fstat-no" title="function not covered" >  isSocket(</span>): boolean {
-<span class="cstat-no" title="statement not covered" >    return this._checkModeProperty(S_IFSOCK);</span>
+  /**
+   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemHandle/requestPermission
+   */
+  public requestPermission(
+    fileSystemHandlePermissionDescriptor: FileSystemHandlePermissionDescriptor,
+  ): CorePermissionStatus {
+    throw new Error('Not implemented');
   }
 }
-&nbsp;
-export default Dirent;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -256,16 +268,16 @@ export default Dirent;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-07-25T20:56:52.784Z
+                at 2025-08-03T14:56:55.047Z
             </div>
-        <script src="../prettify.js"></script>
+        <script src="../../prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../sorter.js"></script>
-        <script src="../block-navigation.js"></script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
     </body>
 </html>
     
